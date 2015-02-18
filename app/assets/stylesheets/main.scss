@@ -2,7 +2,7 @@
 @import "bootstrap";
 
 .main-title {
-	text-align: center;
+	font-size: 30px;
 	color: white;
 }
 
@@ -13,4 +13,12 @@
 .youtube-player {
 	display: block;
 	margin: 0 auto;
+}
+.inline {
+	display: inline-block;
+}
+
+.slog {
+	font-size: 15px;
+	color: #c9302c;
 }
