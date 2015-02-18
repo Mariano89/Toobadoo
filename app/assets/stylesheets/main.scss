@@ -2,6 +2,7 @@
 @import "bootstrap";
 
 .main-title {
+	margin-left: 5px;
 	font-size: 30px;
 	color: white;
 }
@@ -20,5 +21,9 @@
 
 .slog {
 	font-size: 15px;
-	color: #c9302c;
+	color: #d9534f;
+}
+
+.navbar-inverse {
+	border-radius: 0px;
 }
