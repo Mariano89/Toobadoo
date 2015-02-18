@@ -1,7 +1,9 @@
 class HomeController < ApplicationController
 	
 	def index
-		@resp = HTTParty.get("https://www.googleapis.com/youtube/v3/channels?part=contentDetails&mine=true&key=AIzaSyD473gmLA8qKL0aHbEuubsArlyQBho_lME")
+		@resp = HTTParty.get("http://gdata.youtube.com/feeds/api/standardfeeds/most_popular?alt=json")
+		
+		@vid = @resp['feed']['entry'].sample['content']['src']
 	end
 
 
