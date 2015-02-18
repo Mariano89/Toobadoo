@@ -14,4 +14,7 @@
 //= require jquery_ujs
 //= require bootstrap-sprockets
 //= require turbolinks
-//= require_tree .
+//= require three
+//= require CSS3DRenderer
+//= require TrackballControls
+//= require youtube-three
